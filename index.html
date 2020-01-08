@@ -10,7 +10,7 @@
     <title>TNW</title>
   </head>
   <body>
-    <header class="nav-bar">
+    <header id="navbar" class="nav-bar">
       <div>
         <img
           src="https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/tnw.svg"
@@ -18,7 +18,7 @@
         />
       </div>
       <div>
-        <div>
+        <div id="hidden">
           <ul class="dropdown-menu-top">
             <li><a href="https://thenextweb.com/">News</a></li>
             <li>
@@ -64,4 +64,22 @@
       </div>
     </header>
   </body>
+  <script>
+    window.onscroll = function() {isScrolling()};
+
+    function isScrolling()
+    {
+      if(document.body.scrollTop > 30 || document.documentElement.scrollTop > 30)
+      {
+        document.getElementById('navbar').classList.add('sticky');
+        document.getElementById('hidden').style = "display: none;"
+      }
+      else
+      {
+        document.getElementById('navbar').classList.remove('sticky');
+        document.getElementById('hidden').style = "";
+      }
+      
+    }
+  </script>
 </html>

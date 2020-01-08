@@ -185,6 +185,12 @@
   }
 }
 
+.sticky {
+  position: sticky;
+  top: 0;
+  height: 50px;
+}
+
 /* @media only screen and (min-width: 200px) and (max-width: 767px) {
   .nav-bar > :first-child,
   .nav-bar > :nth-child(2) {
