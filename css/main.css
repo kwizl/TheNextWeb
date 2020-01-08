@@ -1,114 +1,213 @@
-.main-section {
-  padding: 5px;
-  display: grid;
-  column-gap: 5px;
-  grid-template-columns: 2fr 1fr;
-  height: 450px;
+@media only screen and (min-width: 768px) {
+  .main-section {
+    padding: 5px;
+    display: grid;
+    column-gap: 5px;
+    grid-template-columns: 2fr 1fr;
+    height: 450px;
+  }
+  
+  .main-article {
+    background: linear-gradient(
+      to top left,
+      rgba(255, 36, 234, 0.5) 0%,
+      rgb(231, 78, 0.5) 80%
+    ), url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2016/03/brain-1200x600.jpg");
+    background-position: center;
+    background-size: cover;
+  }
+  
+  .cover-date {
+    padding-top: 20px;
+    padding-right: 5px;
+    color: white;
+    text-align: end;
+    font-size: 12px;
+  }
+  
+  .main-article h2 {
+    padding-left: 10px;
+  }
+  
+  .main-article h2 a, .main-sub-article h2 a {
+    text-decoration: none;
+    color: rgb(226, 226, 226);
+    font-size: 40px;
+    font-weight: 800;
+  }
+  
+  .main-sub-article h2 {
+    padding: 30px 0 10px 10px;
+  }
+  
+  #sub-link-1, #sub-link-2 {
+    font-size: 25px;
+  }
+  
+  #sub-link-1 span, #sub-link-2 span {
+    font-size: 15px;
+  }
+  
+  .main-article ul, .main-sub-article ul {
+    margin: 10px 0 10px 10px;
+  }
+  
+  .main-article ul li, .main-sub-article ul li {
+    margin-right: 4px;
+    list-style: none;
+    display: inline-block;
+    color: rgb(226, 226, 226);
+    font-size: 12px;
+  }
+  
+  .fa-clock-o, .fa-share-alt {
+    color: rgb(226, 226, 226);
+    font-size: 15px;
+  }
+  
+  .main-article ul li a, .main-sub-article ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 12px;
+  }
+  
+  .main-article ul li a:hover, .main-sub-article ul li a:hover {
+    text-decoration: none;
+    color: rgb(189, 189, 189);
+  }
+  
+  .main-article > div img {
+    height: 20vh;
+    padding-top: 30px;
+    padding-left: 20px;
+  }
+  
+  .main-sub-article {
+    display: grid;
+    row-gap: 5px;
+    grid-template-rows: repeat(2, 1fr);
+  }
+  
+  .main-sub-article > :first-child {
+    background: linear-gradient(
+      to bottom,
+      rgba(99, 92, 92, 0.5) 0%,
+      rgb(54, 54, 45) 90%
+    ), url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/07/Switch-Lite-796x417.jpg");
+    background-position: center;
+    background-size: cover;
+  }
+  
+  .main-sub-article > :last-child {
+    background: linear-gradient(
+      to bottom,
+      rgba(99, 92, 92, 0.5) 0%,
+      rgb(54, 54, 45) 90%
+    ), url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/01/thisfootdoesnotexist.com-feet-ai-machine-learning-images-796x485.png");
+    background-position: center;
+    background-size: cover;
+  }
+  
+  .main-article, .main-sub-article > article {
+    display: grid;
+    align-items: end;
+  }
 }
 
-.main-article {
-  background: linear-gradient(
-    to top left,
-    rgba(255, 36, 234, 0.5) 0%,
-    rgb(231, 78, 0.5) 80%
-  ), url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2016/03/brain-1200x600.jpg");
-  background-position: center;
-  background-size: cover;
-}
+@media only screen and (min-width: 200px) and (max-width: 767px) {
+  .main-section {
+    padding: 5px;
+    display: grid;
+    row-gap: 5px;
+    grid-template-rows: 2fr, 1fr;
+    height: 400px;
+  }
+  
+  .main-article {
+    background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2016/03/brain-1200x600.jpg");
+    background-position: center;
+    background-size: cover;
+  }
+  
+  .cover-date {
+    display: none;
+  }
+  
+  .main-article h2 {
+    padding-left: 10px;
+  }
+  
+  .main-article h2 a, .main-sub-article h2 a {
+    text-decoration: none;
+    color: rgb(226, 226, 226);
+    font-size: 16px;
+    font-weight: 800;
+  }
+  
+  .main-sub-article h2 {
+    padding: 10px 0 10px 10px;
+  }
+  
+  #sub-link-1, #sub-link-2 {
+    font-size: 16px;
+  }
+  
+  #sub-link-1 span, #sub-link-2 span {
+    font-size: 15px;
+  }
+  
+  .main-article ul, .main-sub-article ul {
+    margin: 10px 0 10px 10px;
+  }
+  
+  .main-article ul li, .main-sub-article ul li {
+    margin-right: 4px;
+    list-style: none;
+    display: inline-block;
+    color: rgb(226, 226, 226);
+    font-size: 12px;
+  }
+  
+  .fa-clock-o, .fa-share-alt {
+    color: rgb(226, 226, 226);
+    font-size: 15px;
+  }
+  
+  .main-article ul li a, .main-sub-article ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 12px;
+  }
+  
+  .main-article ul li a:hover, .main-sub-article ul li a:hover {
+    text-decoration: none;
+    color: rgb(189, 189, 189);
+  }
+  
+  .main-article > div img {
+    display: none;
+  }
 
-.cover-date {
-  padding-top: 20px;
-  padding-right: 5px;
-  color: white;
-  text-align: end;
-  font-size: 12px;
-}
+  .main-sub-article {
+    display: grid;
+    row-gap: 5px;
+    grid-template-rows: repeat(2, 1fr);
+  }
 
-.main-article h2 {
-  padding-left: 10px;
+  .main-sub-article > :first-child {
+    background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/07/Switch-Lite-796x417.jpg");
+    background-position: center;
+    background-size: cover;
+  }
+  
+  .main-sub-article > :last-child {
+    background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/01/thisfootdoesnotexist.com-feet-ai-machine-learning-images-796x485.png");
+    background-position: center;
+    background-size: cover;
+  }
+  
+  .main-article, .main-sub-article > article {
+    display: grid;
+    align-items: end;
+  }
 }
-
-.main-article h2 a, .main-sub-article h2 a {
-  text-decoration: none;
-  color: rgb(226, 226, 226);
-  font-size: 40px;
-  font-weight: 800;
-}
-
-.main-sub-article h2 {
-  padding: 30px 0 10px 10px;
-}
-
-#sub-link-1, #sub-link-2 {
-  font-size: 25px;
-}
-
-#sub-link-1 span, #sub-link-2 span {
-  font-size: 15px;
-}
-
-.main-article ul, .main-sub-article ul {
-  margin: 10px 0 10px 10px;
-}
-
-.main-article ul li, .main-sub-article ul li {
-  margin-right: 4px;
-  list-style: none;
-  display: inline-block;
-  color: rgb(226, 226, 226);
-  font-size: 12px;
-}
-
-.fa-clock-o, .fa-share-alt {
-  color: rgb(226, 226, 226);
-  font-size: 15px;
-}
-
-.main-article ul li a, .main-sub-article ul li a{
-  text-decoration: none;
-  color: white;
-  font-size: 12px;
-}
-
-.main-article ul li a:hover, .main-sub-article ul li a:hover {
-  text-decoration: none;
-  color: rgb(189, 189, 189);
-}
-
-.main-article > div img {
-  height: 20vh;
-  padding-top: 30px;
-  padding-left: 20px;
-}
-
-.main-sub-article {
-  display: grid;
-  row-gap: 5px;
-  grid-template-rows: repeat(2, 1fr);
-}
-
-.main-sub-article > :first-child {
-  background: linear-gradient(
-    to bottom,
-    rgba(99, 92, 92, 0.5) 0%,
-    rgb(54, 54, 45) 90%
-  ), url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/07/Switch-Lite-796x417.jpg");
-  background-position: center;
-  background-size: cover;
-}
-
-.main-sub-article > :last-child {
-  background: linear-gradient(
-    to bottom,
-    rgba(99, 92, 92, 0.5) 0%,
-    rgb(54, 54, 45) 90%
-  ), url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/01/thisfootdoesnotexist.com-feet-ai-machine-learning-images-796x485.png");
-  background-position: center;
-  background-size: cover;
-}
-
-.main-article, .main-sub-article > article {
-  display: grid;
-  align-items: end;
-}
-
