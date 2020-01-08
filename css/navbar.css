@@ -1,0 +1,69 @@
+.nav-bar {
+  display: flex;
+  height: 80px;
+  width: 100%;
+}
+
+.nav-bar > div {
+  /* border: 1px solid black; */
+}
+
+.nav-bar > :first-child {
+  flex-basis: 110px;
+  background: rgb(255, 36, 234);
+  background: linear-gradient(
+    132deg,
+    rgba(255, 36, 234, 1) 0%,
+    rgb(231, 78, 1) 80%
+  );
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav-bar > :first-child > img {
+  height: 15px;
+}
+
+.nav-bar > :last-child {
+  flex: 10;
+  display: flex;
+  flex-direction: column;
+}
+
+.nav-bar > :last-child > :first-child {
+  flex: 0.5;
+  background-color: black;
+}
+
+.nav-bar > :last-child > :last-child {
+  flex: 1;
+  background-color: white;
+}
+
+.dropdown-menu-top {
+  margin: 5px 20px;
+}
+
+.dropdown-menu-top a {
+  text-decoration: none;
+  color: rgb(197, 197, 197);
+}
+
+.dropdown-menu-top a:hover {
+  color: whitesmoke;
+}
+
+.dropdown-menu-top > li {
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+  vertical-align: middle;
+  margin-right: 10px;
+}
+
+.dropdown-menu-top span {
+  font-size: x-small;
+  position: relative;
+  top: -1px;
+}
