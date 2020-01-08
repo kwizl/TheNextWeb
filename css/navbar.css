@@ -1,150 +1,201 @@
-@media only screen and (min-width: 768px) {
-  .nav-bar {
-    display: flex;
-    height: 80px;
-    width: 100%;
-  }
+.nav-bar {
+  display: flex;
+  height: 80px;
+  width: 100%;
+}
 
-  .nav-bar > :first-child {
-    flex-basis: 110px;
-    background: rgb(255, 36, 234);
-    background: linear-gradient(
-      132deg,
-      rgba(255, 36, 234, 1) 0%,
-      rgb(231, 78, 1) 80%
-    );
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  
-  .nav-bar > :first-child > img {
-    height: 15px;
-  }
-  
-  .nav-bar > :last-child {
-    flex: 10;
-    display: flex;
-    flex-direction: column;
-  }
-  
-  .nav-bar > :last-child > :first-child {
-    display: flex;
-    flex-direction: row;
-  }
-  
-  .nav-bar > :last-child > :first-child {
-    display: flex;
-    flex-direction: row;
-  }
-  
+.nav-bar > :first-child {
+  flex-basis: 110px;
+  background: rgb(255, 36, 234);
+  background: linear-gradient(
+    132deg,
+    rgba(255, 36, 234, 1) 0%,
+    rgb(231, 78, 1) 80%
+  );
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+}
+
+.nav-bar > :first-child > img {
+  height: 15px;
+}
+
+.nav-bar > :last-child {
+  flex: 10;
+  display: flex;
+  flex-direction: column;
+}
+
+.nav-bar > :last-child > :first-child {
+  display: flex;
+  flex-direction: row;
+}
+
+.nav-bar > :last-child > :first-child {
+  display: flex;
+  flex-direction: row;
+}
+
+#menu-top-left {
+  display: flex;
+  justify-content: end;
+}
+
+.nav-bar > :last-child > :first-child {
+  flex: 0.5;
+  background-color: black;
+}
+
+.nav-bar > :last-child > :last-child {
+  flex: 1;
+  background-color: white;
+}
+
+.dropdown-menu-top {
+  margin: 5px 20px;
+  flex: 1;
+  white-space: nowrap;
+}
+
+.dropdown-menu-top a {
+  text-decoration: none;
+  color: rgb(197, 197, 197);
+}
+
+.dropdown-menu-top a:hover {
+  color: whitesmoke;
+}
+
+.dropdown-menu-top > li {
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+  vertical-align: middle;
+  margin-right: 10px;
+}
+
+.dropdown-menu-top span {
+  font-size: x-small;
+  position: relative;
+  top: -1px;
+}
+
+.menu-bottom {
+  padding-top: 10px;
+  line-height: 20px;
+  vertical-align: middle;
+  margin-left: 20px;
+  flex: 1;
+}
+
+.menu-bottom li {
+  display: inline-block;
+  list-style: none;
+  padding-right: 10px;
+}
+
+.menu-bottom li a {
+  text-decoration: none;
+  color: rgb(155, 155, 155);
+  text-transform: uppercase;
+  font-family: sans-serif;
+  font-weight: 500;
+  font-size: 13px;
+}
+
+.menu-bottom li a:hover {
+  color: black;
+}
+
+.menu-bottom-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.menu-bottom-container > div {
+  flex-basis: 50px;
+  border-left: 1px solid rgb(197, 197, 197);
+  text-align: center;
+  flex-shrink: 0;
+}
+
+.fa-search {
+  color: rgb(163, 163, 163);
+  padding-top: 15px;
+}
+
+.fa-search:hover {
+  color: rgb(83, 83, 83);
+  cursor: pointer;
+}
+
+.menu-icon {
+  display: none;
+}
+
+.fa-bars {
+  color: rgb(163, 163, 163);
+  padding-top: 15px;
+}
+
+.fa-bars:hover {
+  color: rgb(83, 83, 83);
+  cursor: pointer;
+}
+
+.trick {
+  display: none;
+}
+
+@media only screen and (min-width: 767px) and (max-width: 878px) {
   #menu-top-left {
-    display: flex;
-    justify-content: end;
-  }
-  
-  .nav-bar > :last-child > :first-child {
-    flex: 0.5;
-    background-color: black;
-  }
-  
-  .nav-bar > :last-child > :last-child {
-    flex: 1;
-    background-color: white;
-  }
-  
-  .dropdown-menu-top {
-    margin: 5px 20px;
-    flex: 1;
-  }
-  
-  .dropdown-menu-top a {
-    text-decoration: none;
-    color: rgb(197, 197, 197);
-  }
-  
-  .dropdown-menu-top a:hover {
-    color: whitesmoke;
-  }
-  
-  .dropdown-menu-top > li {
-    text-decoration: none;
-    display: inline-block;
-    font-size: 12px;
-    vertical-align: middle;
-    margin-right: 10px;
-  }
-  
-  .dropdown-menu-top span {
-    font-size: x-small;
-    position: relative;
-    top: -1px;
-  }
-  
-  .menu-bottom {
-    padding-top: 10px;
-    line-height: 20px;
-    vertical-align: middle;
-    margin-left: 20px;
-    flex: 1;
-  }
-  
-  .menu-bottom li {
-    display: inline-block;
-    list-style: none;
-    padding-right: 10px;
-  }
-  
-  .menu-bottom li a {
-    text-decoration: none;
-    color: rgb(155, 155, 155);
-    text-transform: uppercase;
-    font-family: sans-serif;
-    font-weight: 500;
-    font-size: 13px;
-  }
-  
-  .menu-bottom li a:hover
-  {
-    color: black;
-  }
-  
-  .menu-bottom-container {
-    display: flex;
-    flex-direction: row;
-  }
-  
-  .menu-bottom-container > div {
-    flex-basis: 50px;
-    border-left: 1px solid rgb(197, 197, 197);
-    text-align: center;
-  }
-  
-  .fa-search {
-    color: rgb(163, 163, 163);
-    padding-top: 15px;
-  }
-  
-  .fa-search:hover {
-    color: rgb(83, 83, 83);
-    cursor: pointer;
-  }
-
-  .menu-icon {
     display: none;
   }
 }
 
-@media only screen and (min-width: 200px) and (max-width: 767px) { 
-  .nav-bar > :first-child, .nav-bar > :nth-child(2) {
+@media only screen and (min-width: 1020px) {
+  .nav-bar > :first-child {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 100px) and (max-width: 767px) {
+  .nav-bar > :nth-child(2) > :first-child {
     display: none;
   }
 
-  .fa-bars{
+  .nav-bar {
+    height: 50px;
+  }
+
+  .menu-bottom {
+    display: none;
+  }
+
+  .menu-icon {
+    display: initial;
+  }
+
+  .trick {
+    flex: 1;
+
+    display: initial;
+  }
+}
+
+/* @media only screen and (min-width: 200px) and (max-width: 767px) {
+  .nav-bar > :first-child,
+  .nav-bar > :nth-child(2) {
+    display: none;
+  }
+
+  .fa-bars {
     color: rgb(163, 163, 163);
     padding-top: 15px;
   }
-  
+
   .fa-bars:hover {
     color: rgb(83, 83, 83);
     cursor: pointer;
@@ -154,7 +205,7 @@
     color: rgb(163, 163, 163);
     padding-top: 15px;
   }
-  
+
   .fa-search:hover {
     color: rgb(83, 83, 83);
     cursor: pointer;
@@ -174,7 +225,7 @@
     width: 100%;
     flex-direction: row;
   }
-  
+
   .menu-bottom-container {
     display: flex;
     flex-direction: row;
@@ -193,5 +244,4 @@
   .nav-bar > :first-child > img {
     height: 15px;
   }
-
-}
+} */
