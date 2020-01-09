@@ -273,6 +273,14 @@
     background-repeat: no-repeat;
     background-size: cover;
   }
+
+  .main-article {
+    background: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2016/03/brain-1200x600.jpg");
+  }
+  .cover-date,
+  .main-article > :nth-child(2) {
+    display: none;
+  }
 }
 
 @media only screen and (min-width: 200px) and (max-width: 767px) {
@@ -450,6 +458,13 @@
   }
 }
 
+@media only screen and (min-width: 1016px) and (max-width: 1368px) {
+  .latest-funding__container > :last-child {
+    flex-grow: 0;
+    flex-basis: calc((100% / 3) - 60px);
+  }
+}
+
 .container {
   max-width: 1400px;
   margin: 0 auto;
@@ -460,6 +475,8 @@
   display: flex;
   justify-content: space-between;
   margin: 0 10px;
+  margin-left: 36px;
+  margin-right: 39px;
 }
 
 .latest-funding :first-child a {
@@ -494,16 +511,27 @@
 
 .latest-funding__container {
   display: flex;
-  justify-content: space-between;
+  /* justify-content: center; */
   padding: 0 10px 0 10px;
   max-width: 1400px;
   margin: 0 auto;
   margin-top: 20px;
+  margin-bottom: 30px;
+  flex-wrap: wrap;
 }
 
 .latest-funding__container > div {
   width: 270px;
   height: 250px;
+  background: #f4cdcd29;
+  margin: 0 30px;
+  margin-bottom: 30px;
+  flex-grow: 1;
+  border: 1px solid black;
+}
+
+.latest-funding__container > :last-child {
+  justify-self: left;
 }
 
 .latest-funding__container > div > ul {
@@ -524,11 +552,11 @@
 
 .funding-header-link {
   display: grid;
-  grid-template: 1fr / 0.4fr 1fr;
+  grid-template: 1fr / 85px 1fr;
   text-decoration: none;
   color: black;
   padding: 5px 0 20px 0;
-  background-image: linear-gradient(to bottom, #ff4422, #ffebe7 35%);
+  background-image: linear-gradient(to bottom, #ff4422 40%, #ffebe7 40%);
 }
 
 .latest-img__content ul li {
@@ -539,9 +567,10 @@
   margin-top: 5px;
   font-size: 14px;
   font-weight: 700;
+  color: white;
 }
 
-.latest-img__content ul li:nth-child(2){
+.latest-img__content ul li:nth-child(2) {
   margin-top: 20px;
   font-size: 14px;
   font-weight: 700;
@@ -553,6 +582,7 @@
   font-size: 12px;
   background-color: #eee1de;
   margin: 10px 0 0 8px;
+  display: inline-block;
 }
 
 .funding-link > span {
@@ -574,4 +604,17 @@
 .latest-img > img {
   height: 50px;
   margin: 8px;
+}
+
+.apps-gear-tech--container {
+  display: grid;
+  gap: 41px;
+  grid-template-columns: repeat(auto-fill, minmax(300px, auto));
+  grid-auto-flow: row;
+  grid-auto-rows: 400px;
+  margin: 0 40px;
+}
+
+.apps-gear-tech--container > div {
+  border: 1px solid black;
 }
