@@ -4,13 +4,13 @@
 
 .upper-container {
   background-color: #131313;
-  height: 200px;
+  height: 230px;
   padding-top: 30px;
 }
 
 .upper-footer-text-links, .upper-footer-icon-links {
   text-align: center;
-  margin-top: 40px;
+  margin-top: 25px;
 }
 
 .upper-footer-text-links > li, .upper-footer-icon-links > li {
@@ -43,7 +43,7 @@
 }
 
 .bottom-container {
-  height: 110px;
+  height: 140px;
   background-color: #000000;
   text-align: center;
   padding-top: 40px;
