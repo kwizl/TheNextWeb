@@ -49,7 +49,8 @@
   background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/01/cryptocurrency-lazarus-north-korea-hard-fork-blockchain-theft-hack-796x448.jpeg");
 }
 
-#li7, #tech {
+#li7,
+#tech {
   background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/07/Untitled-design-72-519x270.jpg");
 }
 
@@ -74,7 +75,6 @@
     display: grid;
     column-gap: 5px;
     grid-template-columns: 2fr 1fr;
-    height: 450px;
   }
 
   .main-article {
@@ -464,6 +464,10 @@
   .container-img > div {
     display: none;
   }
+
+  /* .apps-gear-tech--container > div > :nth-child(2) {
+    /* min-height: 60%; */
+  } */
 }
 
 @media only screen and (min-width: 1016px) and (max-width: 1368px) {
@@ -524,7 +528,8 @@
     display: inline-block;
   }
 
-  .topic, .deals-right-header {
+  .topic,
+  .deals-right-header {
     float: none;
     width: 100%;
     text-align: start;
@@ -543,7 +548,6 @@
 
 .latest-funding__container > div {
   width: 270px;
-  height: 250px;
   background: #f4cdcd29;
   margin: 0 30px;
   margin-bottom: 30px;
@@ -601,7 +605,7 @@
   text-decoration: none;
   color: rgb(44, 44, 44);
   font-size: 12px;
-  background-color: #eee1de;
+  /* background-color: #eee1de; */
   margin: 10px 0 0 8px;
   display: inline-block;
 }
@@ -632,15 +636,175 @@
   gap: 41px;
   grid-template-columns: repeat(auto-fill, minmax(300px, auto));
   grid-auto-flow: row;
-  grid-auto-rows: 600px;
+  grid-auto-rows: auto;
   margin: 0 40px;
 }
 
 .apps-gear-tech--container > div {
-  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
 }
 
-.apps-gear-tech--container > div h3 a, #tech ul li a {
+.apps-gear-tech--container > div > ul {
+  padding-left: 15px;
+  padding-top: 15px;
+  font-size: 12px;
+  color: #ff4422;
+}
+
+.apps-gear-tech--container > div li {
+  border-bottom: 1px solid rgb(201, 201, 201);
+  padding: 10px 0;
+}
+
+.apps-gear-tech--container > div a {
+  color: rgb(63, 63, 63);
+  font-size: 12px;
+  text-decoration: none;
+}
+
+.apps-gear-tech--container ul a:hover {
+  color: black;
+}
+
+.apps-gear-tech--container > div > :first-child {
+  padding-bottom: 20px;
+  font-size: x-large;
+  text-decoration: none;
+  font-weight: bolder;
+  color: #ff4422;
+}
+
+.apps-gear-tech--container > div > :first-child:hover {
+  color: black;
+}
+
+.apps-gear-tech--container > div > :nth-child(2) {
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: column;
+  color: white;
+  padding-left: 10px;
+  padding-bottom: 10px;
+  text-decoration: none;
+  height: 100%;
+}
+
+#facebook
+{
+  background: linear-gradient(
+    0deg,
+    rgba(0, 0, 0, 1) 10%,
+    rgba(255, 255, 255, 0) 74%
+  ),
+  url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/10/Untitled-design-98-368x276.jpg);
+  background-size: cover;
+  background-position: 0px center;
+  background-origin: border-box;
+  max-height: 60%;
+  background-repeat: no-repeat;
+  height: calc(270px + 5vw);
+}
+
+#gear
+{
+  background: linear-gradient(
+    0deg,
+    rgba(0, 0, 0, 1) 10%,
+    rgba(255, 255, 255, 0) 74%
+  ),
+  url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/01/header-image-smart-lock-cool-not-for-me-368x276.png);
+  background-size: cover;
+  background-position: 0px center;
+  background-origin: border-box;
+  max-height: 60%;
+  background-repeat: no-repeat;
+  height: calc(270px + 5vw);
+}
+
+
+
+.apps-gear-tech--container span {
+  max-width: 300px;
+  margin: 2px 0;
+}
+
+.apps-gear-tech--container a > :first-child {
+  font-size: 12px;
+  cursor: default;
+}
+
+.apps-gear-tech--container a > :nth-child(2) {
+  font-size: 16px;
+  font-weight: bolder;
+}
+
+.apps-gear-tech--container a > :nth-child(2):hover {
+  text-decoration: underline;
+}
+
+.apps-gear-tech--container a > :last-child {
+  font-size: 10px;
+  color: #949494;
+}
+
+.apps-gear-tech--container a > :last-child:hover {
+  color: whitesmoke;
+}
+
+.info--apps-tech {
+  display: flex;
+  margin-top: 5px;
+  height: 100px;
+}
+
+.info--apps-tech > :first-child {
+  flex: 1;
+  background-color: rgb(252, 234, 222);
+  padding: 10px 10px 35px 10px;
+}
+
+.info--apps-tech > :first-child > span {
+  font-size: 12px;
+}
+
+.info--apps-tech > :first-child > a {
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.info--apps-tech > :first-child > * {
+  display: block;
+  color: #ff4422;
+  text-decoration: none;
+}
+
+.info--apps-tech > :first-child > a:hover {
+  text-decoration: underline;
+}
+
+.info--apps-tech > :last-child {
+  background: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/01/google-play-store-malware-joker.jpg);
+  flex-basis: 100px;
+  flex-shrink: 0;
+  flex-grow: 0;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#gear-image
+{
+  background: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/01/header-image-phone-read-comics-on.png);
+  flex-basis: 100px;
+  flex-shrink: 0;
+  flex-grow: 0;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#tech ul li a {
   text-decoration: none;
   color: black;
 }
@@ -696,7 +860,7 @@
   width: 50%;
 }
 
-.deals-right-header:hover { 
+.deals-right-header:hover {
   color: black;
 }
 
@@ -757,11 +921,34 @@
   font-style: bold;
 }
 
-#deal-link-1, #deal-link-2, #deal-link-3, #deal-link-4, #deal-link-5, #deal-link-6, #deal-link-7, #deal-link-8 {
+#deal-link-1,
+#deal-link-2,
+#deal-link-3,
+#deal-link-4,
+#deal-link-5,
+#deal-link-6,
+#deal-link-7,
+#deal-link-8 {
   font-size: 15px;
 }
 
-#deal-link-1:hover, #deal-link-2:hover, #deal-link-3:hover, #deal-link-4:hover, #deal-link-5:hover, #deal-link-6:hover, #deal-link-7:hover, #deal-link-8:hover {
+#deal-link-1:hover,
+#deal-link-2:hover,
+#deal-link-3:hover,
+#deal-link-4:hover,
+#deal-link-5:hover,
+#deal-link-6:hover,
+#deal-link-7:hover,
+#deal-link-8:hover {
   font-size: 15px;
   color: #ff4422;
+}
+
+
+@media only screen and (min-width:1010px) and (max-width:1340px)
+{
+  .latest-funding__container > :last-child
+  {
+    display: none;
+  }
 }
