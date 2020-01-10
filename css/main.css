@@ -464,10 +464,6 @@
   .container-img > div {
     display: none;
   }
-
-  /* .apps-gear-tech--container > div > :nth-child(2) {
-    /* min-height: 60%; */
-  } */
 }
 
 @media only screen and (min-width: 1016px) and (max-width: 1368px) {
@@ -605,7 +601,6 @@
   text-decoration: none;
   color: rgb(44, 44, 44);
   font-size: 12px;
-  /* background-color: #eee1de; */
   margin: 10px 0 0 8px;
   display: inline-block;
 }
@@ -690,6 +685,15 @@
   height: 100%;
 }
 
+.category-articles {
+  background-size: cover;
+  background-position: 0px center;
+  background-origin: border-box;
+  max-height: 60%;
+  background-repeat: no-repeat;
+  height: calc(270px + 5vw);
+}
+
 #facebook
 {
   background: linear-gradient(
@@ -722,7 +726,57 @@
   height: calc(270px + 5vw);
 }
 
+#tech-id {
+  background: linear-gradient(
+    0deg,
+    rgba(0, 0, 0, 1) 10%,
+    rgba(255, 255, 255, 0) 74%
+  ), url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2017/03/SpaceX-Falcon-9-SES-10-368x276.jpg");
+  background-size: cover;
+  background-position: 0px center;
+  background-origin: border-box;
+  max-height: 60%;
+  background-repeat: no-repeat;
+  height: calc(270px + 5vw);
+}
 
+#creative-id {
+  background: linear-gradient(
+    0deg,
+    rgba(0, 0, 0, 1) 10%,
+    #ffffff00 74%
+  ), url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/12/Copy-of-Copy-of-Copy-of-Copy-of-Copy-of-Copy-of-...-5-368x276.png");
+  background-size: cover;
+  background-position: 0px center;
+  background-origin: border-box;
+  max-height: 60%;
+  background-repeat: no-repeat;
+  height: calc(270px + 5vw);
+}
+
+#podium-id {
+  background-color: black;
+  background-size: cover;
+  background-position: 0px center;
+  background-origin: border-box;
+  max-height: 60%;
+  background-repeat: no-repeat;
+  height: calc(270px + 5vw);
+}
+
+#insights-id {
+  background: linear-gradient(
+    0deg,
+    rgba(0, 0, 0, 1) 10%,
+    #ffffff00 74%
+  ), url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/08/bitcoin_today-header_bitcoin_today-368x276.jpg");
+  background-size: cover;
+  background-position: 0px center;
+  background-origin: border-box;
+  max-height: 60%;
+  background-repeat: no-repeat;
+  height: calc(270px + 5vw);
+}
 
 .apps-gear-tech--container span {
   max-width: 300px;
@@ -796,6 +850,36 @@
 #gear-image
 {
   background: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/01/header-image-phone-read-comics-on.png);
+  flex-basis: 100px;
+  flex-shrink: 0;
+  flex-grow: 0;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#tech-image {
+  background: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/01/fiat-centoventi-car-500-tesla-ces-concept-car-vehicle-battery-electric.jpg");
+  flex-basis: 100px;
+  flex-shrink: 0;
+  flex-grow: 0;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#creative-image {
+  background: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/10/Giphy-Arcade.jpg");
+  flex-basis: 100px;
+  flex-shrink: 0;
+  flex-grow: 0;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#podium-image {
+  background: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/12/download3.png");
   flex-basis: 100px;
   flex-shrink: 0;
   flex-grow: 0;
