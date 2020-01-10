@@ -49,7 +49,7 @@
   background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/01/cryptocurrency-lazarus-north-korea-hard-fork-blockchain-theft-hack-796x448.jpeg");
 }
 
-#li7 {
+#li7, #tech {
   background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/07/Untitled-design-72-519x270.jpg");
 }
 
@@ -208,7 +208,7 @@
     text-decoration: none;
     font-size: 22px;
     font-weight: 600;
-    margin-top: 20px;
+    margin-top: 2%;
   }
 
   .topic:hover {
@@ -409,6 +409,7 @@
     align-content: center;
     height: 10vh;
     margin: 0 1% 0 1%;
+    padding-left: 1%;
   }
 
   .topic {
@@ -416,7 +417,10 @@
     text-decoration: none;
     font-size: calc(22px + 0.5vh);
     font-weight: 600;
-    margin-left: 14px;
+    margin-top: 2%;
+  }
+
+  .deals-right-header {
     margin-top: 2%;
   }
 
@@ -456,12 +460,20 @@
   .latest-funding {
     flex-direction: column;
   }
+
+  .container-img > div {
+    display: none;
+  }
 }
 
 @media only screen and (min-width: 1016px) and (max-width: 1368px) {
   .latest-funding__container > :last-child {
     flex-grow: 0;
     flex-basis: calc((100% / 3) - 60px);
+  }
+
+  .section-topic {
+    padding-left: 1%;
   }
 }
 
@@ -507,11 +519,20 @@
     display: inherit;
     margin: 10px 0;
   }
+
+  #latest-deal a {
+    display: inline-block;
+  }
+
+  .topic, .deals-right-header {
+    float: none;
+    width: 100%;
+    text-align: start;
+  }
 }
 
 .latest-funding__container {
   display: flex;
-  /* justify-content: center; */
   padding: 0 10px 0 10px;
   max-width: 1400px;
   margin: 0 auto;
@@ -611,10 +632,136 @@
   gap: 41px;
   grid-template-columns: repeat(auto-fill, minmax(300px, auto));
   grid-auto-flow: row;
-  grid-auto-rows: 400px;
+  grid-auto-rows: 600px;
   margin: 0 40px;
 }
 
 .apps-gear-tech--container > div {
   border: 1px solid black;
+}
+
+.apps-gear-tech--container > div h3 a, #tech ul li a {
+  text-decoration: none;
+  color: black;
+}
+
+#tech {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  height: 250px;
+}
+
+#tech h3 {
+  padding-top: 80px;
+}
+
+#tech h3 a {
+  font-size: 17px;
+  font-weight: 600;
+  color: white;
+}
+
+#tech ul li {
+  list-style: none;
+  display: inline-block;
+  font-size: 12px;
+}
+
+.category-list li a {
+  text-decoration: none;
+  color: black;
+  font-size: 12px;
+}
+
+.category-list li {
+  border-bottom: 1px solid grey;
+  padding: 5px 0 5px 0;
+}
+
+#latest-deals {
+  margin-right: 1%;
+}
+
+.deals-right-header {
+  margin-right: 1%;
+  text-decoration: none;
+  color: #ff4422;
+  width: 50%;
+  float: right;
+  text-align: end;
+}
+
+.topic {
+  width: 50%;
+}
+
+.deals-right-header:hover { 
+  color: black;
+}
+
+.container-img > div {
+  width: 80px;
+  height: 80px;
+  background-color: #ffcc00;
+  float: right;
+  clip-path: polygon(0 0, 100% 0, 100% 100%);
+  -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%);
+  position: relative;
+}
+
+.container-img > div > p {
+  font-size: 11px;
+  font-weight: 600;
+  font-style: bold;
+  transform: rotate(45deg);
+  position: absolute;
+  left: 22px;
+  top: 18px;
+}
+
+#d-li1 {
+  background-image: url("https://cdnp1.stackassets.com/cba31166b47b2c151d94a8397c4aa0604771f268/store/04b44dd5593f2a7c175e4dd48292fe76d560b9c1c0536d03345aa8c50141/sale_18367_primary_image.jpg");
+}
+
+#d-li2 {
+  background-image: url("https://cdnp0.stackassets.com/0bcaf472e484efc5812ba81caff99e8d92b3e6e9/store/a608033f5bd5c0926a52360990ea5bd8a7241593db592e096d16df200727/product_30218_product_shots4.jpg");
+}
+
+#d-li3 {
+  background-image: url("https://cdnp3.stackassets.com/f7975567bfde79648a2dfc25a7117b1f4e64198a/store/3d45335559eb6db6de1e1dae35734f2b2636b106824e7db3c2ee76b386ba/sale_25035_primary_image.jpg");
+}
+
+#d-li4 {
+  background-image: url("https://cdnp1.stackassets.com/4c6357549bbe196eac7a2a550f3cf2a380f39e44/store/7d5851d962ea8a62a7e9939f0efebc686b69d83821b63060d3109048021b/sale_19399_primary_image.jpg");
+}
+
+#d-li5 {
+  background-image: url("https://cdnp2.stackassets.com/86a50e75aca16cc1dbdc418af68e324371e26319/store/c9986baf3eac2ff09f065cd40f4ab2e25d969b9c36239f31af719257b493/sale_19062_primary_image.jpg");
+}
+
+#d-li6 {
+  background-image: url("https://cdnp0.stackassets.com/daa902c3187c72426e27c82d3282f697851b76fa/store/e9d19825586f8c6202af906416b3d140852a421d86b240d36b675618fbc8/sale_24411_primary_image.jpg");
+}
+
+#d-li7 {
+  background-image: url("https://cdnp1.stackassets.com/e7136335999998ba62b7704286764743401c43d1/store/4ded308468f81ce8f8956252890404c1db5a26b6ee91a0d7e2d8bd960e6e/sale_25139_primary_image.jpg");
+}
+
+#d-li8 {
+  background-image: url("https://cdnp1.stackassets.com/a1885052002064f3903e6c4d22b09695ee1224e5/store/6ad863301975cc44ff2d8ca2233009444670eee3b2e453cc521275dd1a09/sale_24048_primary_image.jpg");
+}
+
+.price {
+  font-size: 17px;
+  font-style: bold;
+}
+
+#deal-link-1, #deal-link-2, #deal-link-3, #deal-link-4, #deal-link-5, #deal-link-6, #deal-link-7, #deal-link-8 {
+  font-size: 15px;
+}
+
+#deal-link-1:hover, #deal-link-2:hover, #deal-link-3:hover, #deal-link-4:hover, #deal-link-5:hover, #deal-link-6:hover, #deal-link-7:hover, #deal-link-8:hover {
+  font-size: 15px;
+  color: #ff4422;
 }
