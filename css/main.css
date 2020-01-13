@@ -265,7 +265,7 @@
   .topic {
     color: #f42;
     text-decoration: none;
-    font-size: 22px;
+    
     font-weight: 600;
     margin-top: 2%;
   }
@@ -295,7 +295,6 @@
   .topic {
     color: #f42;
     text-decoration: none;
-    font-size: 22px;
     font-weight: 600;
     margin-top: 20px;
   }
@@ -462,7 +461,6 @@
   .topic {
     color: #f42;
     text-decoration: none;
-    font-size: calc(22px + 0.5vh);
     font-weight: 600;
     margin-top: 2%;
   }
@@ -1078,7 +1076,7 @@
 }
 
 .section-topic {
-  padding-left: 15px;
+  padding: 15px 0;
   max-width: 1400px;
   margin: 0 auto;
 }
@@ -1086,4 +1084,9 @@
 .override {
   margin-top: 0 !important;
   padding-left: 15px;
+}
+
+.text-size
+{
+  font-size: 26px !important;
 }
