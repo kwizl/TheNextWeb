@@ -536,13 +536,8 @@
     margin: 10px 0;
   }
 
-  #latest-deal a {
-    display: inline-block;
-  }
-
   .topic,
   .deals-right-header {
-    float: none;
     width: 100%;
     text-align: start;
   }
@@ -973,8 +968,10 @@
   font-size: 12px;
 }
 
-#latest-deals {
-  margin-right: 1%;
+#latest-deal {
+  display: flex;
+  align-items: center;
+  padding: 10px 0;
 }
 
 .deals-right-header {
@@ -982,12 +979,12 @@
   text-decoration: none;
   color: #f42;
   width: 50%;
-  float: right;
   text-align: end;
 }
 
 .topic {
   width: 50%;
+  white-space: nowrap;
 }
 
 .deals-right-header:hover {
@@ -1084,4 +1081,9 @@
   padding-left: 15px;
   max-width: 1400px;
   margin: 0 auto;
+}
+
+.override {
+  margin-top: 0 !important;
+  padding-left: 15px;
 }
