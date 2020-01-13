@@ -16,6 +16,16 @@
   color: #f42;
 }
 
+.category-list li {
+  border-bottom: 1px solid grey;
+  padding: 5px 0 5px 0;
+}
+
+.apps-gear-tech--container > div li {
+  border-bottom: 1px solid rgb(201, 201, 201);
+  padding: 10px 0;
+}
+
 .latest-news__container h4 a {
   font-size: 13px;
   font-weight: 600;
@@ -23,10 +33,28 @@
   color: black;
 }
 
+.apps-gear-tech--container > div a {
+  color: rgb(63, 63, 63);
+  font-size: 12px;
+  text-decoration: none;
+}
+
+.category-list li a {
+  text-decoration: none;
+  color: black;
+  font-size: 12px;
+}
+
 .latest-news__container ul li a {
   text-decoration: none;
   color: rgb(121, 121, 121);
   font-size: 12px;
+}
+
+.latest-funding__container ul li a {
+  text-decoration: none;
+  color: rgb(126, 126, 126);
+  font-size: 13px;
 }
 
 .latest-funding a:hover {
@@ -44,6 +72,15 @@
 .latest-funding :first-child a {
   font-weight: 800;
   font-size: 20px !important;
+}
+
+.info--apps-tech > :first-child > a {
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.apps-gear-tech--container ul a:hover {
+  color: black;
 }
 
 .latest-news__container ul li a:hover {
@@ -105,7 +142,8 @@
   }
 
   .main-article {
-    background: linear-gradient(
+    background:
+      linear-gradient(
         to top left,
         rgba(255, 36, 234, 0.5) 0%,
         rgb(231, 78, 0.5) 80%
@@ -195,7 +233,8 @@
   }
 
   .main-sub-article > :first-child {
-    background: linear-gradient(
+    background:
+      linear-gradient(
         to bottom,
         rgba(99, 92, 92, 0.1) 0%,
         rgb(17, 17, 17) 90%
@@ -206,7 +245,8 @@
   }
 
   .main-sub-article > :last-child {
-    background: linear-gradient(
+    background:
+      linear-gradient(
         to bottom,
         rgba(99, 92, 92, 0.1) 0%,
         rgb(17, 17, 17) 90%
@@ -289,6 +329,7 @@
   .main-article {
     background: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2016/03/brain-1200x600.jpg");
   }
+
   .cover-date,
   .main-article > :nth-child(2) {
     display: none;
@@ -304,7 +345,8 @@
   }
 
   .main-article {
-    background: linear-gradient(
+    background:
+      linear-gradient(
         0deg,
         rgba(0, 0, 0, 0.8) 20%,
         rgba(255, 255, 255, 0) 70%
@@ -388,7 +430,8 @@
   }
 
   .main-sub-article > :first-child {
-    background: linear-gradient(
+    background:
+      linear-gradient(
         0deg,
         rgba(0, 0, 0, 1) 0%,
         rgba(255, 255, 255, 0) 90%
@@ -536,12 +579,16 @@
   padding-left: 8px;
 }
 
-.latest-funding__container > div > ul li {
-  margin: 5px 0 5px 0;
-}
-
 .latest-funding__container ul li {
   list-style: none;
+}
+
+.latest-img__content ul li {
+  list-style: none;
+}
+
+.latest-funding__container > div > ul li {
+  margin: 5px 0 5px 0;
 }
 
 .funding-header-link {
@@ -551,10 +598,6 @@
   color: black;
   padding: 5px 0 20px 0;
   background-image: linear-gradient(to bottom, #f42 40%, #ffebe7 40%);
-}
-
-.latest-img__content ul li {
-  list-style: none;
 }
 
 .latest-img__content ul li:first-child {
@@ -581,12 +624,6 @@
 .funding-link > span {
   color: rgb(112, 112, 112);
   padding-left: 8px;
-}
-
-.latest-funding__container ul li a {
-  text-decoration: none;
-  color: rgb(126, 126, 126);
-  font-size: 13px;
 }
 
 .latest-funding__container ul li a:hover {
@@ -620,24 +657,20 @@
   color: #f42;
 }
 
-.category-list li {
-  border-bottom: 1px solid grey;
-  padding: 5px 0 5px 0;
+.info--apps-tech > :last-child {
+  background: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/01/google-play-store-malware-joker.jpg);
+  flex-basis: 100px;
+  flex-shrink: 0;
+  flex-grow: 0;
+  background-position: 0 center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
-.apps-gear-tech--container > div li {
-  border-bottom: 1px solid rgb(201, 201, 201);
-  padding: 10px 0;
-}
-
-.apps-gear-tech--container > div a {
-  color: rgb(63, 63, 63);
-  font-size: 12px;
-  text-decoration: none;
-}
-
-.apps-gear-tech--container ul a:hover {
-  color: black;
+.info--apps-tech > :first-child {
+  flex: 1;
+  background-color: rgb(252, 234, 222);
+  padding: 10px 10px 35px 10px;
 }
 
 .apps-gear-tech--container > div > :first-child {
@@ -646,10 +679,6 @@
   text-decoration: none;
   font-weight: bolder;
   color: #f42;
-}
-
-.apps-gear-tech--container > div > :first-child:hover {
-  color: black;
 }
 
 .apps-gear-tech--container > div > :nth-child(2) {
@@ -663,9 +692,28 @@
   height: 100%;
 }
 
+.apps-gear-tech--container a > :first-child {
+  font-size: 12px;
+  cursor: default;
+}
+
+.apps-gear-tech--container a > :nth-child(2) {
+  font-size: 16px;
+  font-weight: bolder;
+}
+
+.apps-gear-tech--container a > :last-child {
+  font-size: 10px;
+  color: #949494;
+}
+
+.apps-gear-tech--container > div > :first-child:hover {
+  color: black;
+}
+
 .category-articles {
   background-size: cover;
-  background-position: 0px center;
+  background-position: 0 center;
   background-origin: border-box;
   max-height: 60%;
   background-repeat: no-repeat;
@@ -673,14 +721,15 @@
 }
 
 #facebook {
-  background: linear-gradient(
+  background:
+    linear-gradient(
       0deg,
       rgba(0, 0, 0, 1) 10%,
       rgba(255, 255, 255, 0) 74%
     ),
     url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/10/Untitled-design-98-368x276.jpg);
   background-size: cover;
-  background-position: 0px center;
+  background-position: 0 center;
   background-origin: border-box;
   max-height: 60%;
   background-repeat: no-repeat;
@@ -688,14 +737,15 @@
 }
 
 #gear {
-  background: linear-gradient(
+  background:
+    linear-gradient(
       0deg,
       rgba(0, 0, 0, 1) 10%,
       rgba(255, 255, 255, 0) 74%
     ),
     url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/01/header-image-smart-lock-cool-not-for-me-368x276.png);
   background-size: cover;
-  background-position: 0px center;
+  background-position: 0 center;
   background-origin: border-box;
   max-height: 60%;
   background-repeat: no-repeat;
@@ -703,7 +753,8 @@
 }
 
 #tech-id {
-  background: linear-gradient(
+  background:
+    linear-gradient(
       0deg,
       rgba(0, 0, 0, 1) 10%,
       rgba(255, 255, 255, 0) 74%
@@ -722,7 +773,7 @@
     linear-gradient(
       0deg,
       rgba(0, 0, 0, 1) 10%,
-      #ffffff00 74%
+      #fff0 74%
     ),
     url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/12/Copy-of-Copy-of-Copy-of-Copy-of-Copy-of-Copy-of-...-5-368x276.png");
   background-size: cover;
@@ -748,7 +799,7 @@
     linear-gradient(
       0deg,
       rgba(0, 0, 0, 1) 10%,
-      #ffffff00 74%
+      #fff0 74%
     ),
     url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/08/bitcoin_today-header_bitcoin_today-368x276.jpg");
   background-size: cover;
@@ -764,7 +815,7 @@
     linear-gradient(
       0deg,
       rgba(0, 0, 0, 1) 10%,
-       #ffffff00 74%
+      #fff0 74%
     ),
     url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/10/Amazon-Prime-Fresh-delivery-hed-368x276.jpg");
   background-size: cover;
@@ -776,7 +827,12 @@
 }
 
 #distract-id {
-  background: linear-gradient(0deg, rgba(0, 0, 0, 1) 10%, #ffffff00 74%),
+  background:
+    linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 1) 10%,
+      #fff0 74%
+    ),
     url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2016/02/thepiratebay-1200x600.jpg");
   background-size: cover;
   background-position: 0 center;
@@ -791,33 +847,8 @@
   margin: 2px 0;
 }
 
-.info--apps-tech > :last-child {
-  background: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/01/google-play-store-malware-joker.jpg);
-  flex-basis: 100px;
-  flex-shrink: 0;
-  flex-grow: 0;
-  background-position: 0 center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-.apps-gear-tech--container a > :first-child {
-  font-size: 12px;
-  cursor: default;
-}
-
-.apps-gear-tech--container a > :nth-child(2) {
-  font-size: 16px;
-  font-weight: bolder;
-}
-
 .apps-gear-tech--container a > :nth-child(2):hover {
   text-decoration: underline;
-}
-
-.apps-gear-tech--container a > :last-child {
-  font-size: 10px;
-  color: #949494;
 }
 
 .apps-gear-tech--container a > :last-child:hover {
@@ -830,25 +861,8 @@
   height: 100px;
 }
 
-.info--apps-tech > :first-child {
-  flex: 1;
-  background-color: rgb(252, 234, 222);
-  padding: 10px 10px 35px 10px;
-}
-
 .info--apps-tech > :first-child > span {
   font-size: 12px;
-}
-
-.category-list li a {
-  text-decoration: none;
-  color: black;
-  font-size: 12px;
-}
-
-.info--apps-tech > :first-child > a {
-  font-weight: 600;
-  font-size: 14px;
 }
 
 .info--apps-tech > :first-child > * {
