@@ -15,7 +15,7 @@ Project: Building with Responsive Design
 
 ## Live Demo
 
-[Live Demo Link](https://raw.githack.com/mariancristu/TheNextWeb/feature-main-section/index.html)
+[Live Demo Link](https://raw.githack.com/mariancristu/TheNextWeb/complete-project/index.html)
 
 ## Getting Started
 
