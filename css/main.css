@@ -1,0 +1,1089 @@
+.latest-funding {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 10px;
+  margin-left: 36px;
+  margin-right: 39px;
+}
+
+.latest-funding a {
+  text-decoration: none;
+  color: #f42;
+  font-size: 12px;
+}
+
+.latest-funding span {
+  color: #f42;
+}
+
+.category-list li {
+  border-bottom: 1px solid grey;
+  padding: 5px 0 5px 0;
+}
+
+.apps-gear-tech--container > div li {
+  border-bottom: 1px solid rgb(201, 201, 201);
+  padding: 10px 0;
+}
+
+.latest-news__container h4 a {
+  font-size: 13px;
+  font-weight: 600;
+  text-decoration: none;
+  color: black;
+}
+
+.apps-gear-tech--container > div a {
+  color: rgb(63, 63, 63);
+  font-size: 12px;
+  text-decoration: none;
+}
+
+.category-list li a {
+  text-decoration: none;
+  color: black;
+  font-size: 12px;
+}
+
+.latest-news__container ul li a {
+  text-decoration: none;
+  color: rgb(121, 121, 121);
+  font-size: 12px;
+}
+
+.latest-funding__container ul li a {
+  text-decoration: none;
+  color: rgb(126, 126, 126);
+  font-size: 13px;
+}
+
+.latest-funding a:hover {
+  color: rgb(70, 70, 70);
+}
+
+.latest-news__container ul li {
+  margin-right: 4px;
+  list-style: none;
+  display: inline-block;
+  color: rgb(121, 121, 121);
+  font-size: 12px;
+}
+
+.latest-funding :first-child a {
+  font-weight: 800;
+  font-size: 20px !important;
+}
+
+.info--apps-tech > :first-child > a {
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.apps-gear-tech--container ul a:hover {
+  color: black;
+}
+
+.latest-news__container ul li a:hover {
+  text-decoration: none;
+  color: rgb(121, 121, 121);
+}
+
+.container-img {
+  height: 65%;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#li1 {
+  background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/01/Stephen-Hawking-hed-513x270.jpg");
+}
+
+#li2 {
+  background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2016/02/thepiratebay-768x384.jpg");
+}
+
+#li3 {
+  background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/01/Social-media-platforms-hed-Credit-Rahul-Chakraborty--513x270.jpg");
+}
+
+#li4 {
+  background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/01/Escape-From-Tarkov-516x270.jpg");
+}
+
+#li5 {
+  background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/10/uber-screener-796x386.png");
+}
+
+#li6 {
+  background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/01/cryptocurrency-lazarus-north-korea-hard-fork-blockchain-theft-hack-796x448.jpeg");
+}
+
+#li7,
+#tech {
+  background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/07/Untitled-design-72-519x270.jpg");
+}
+
+#li8 {
+  background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/01/header-image-phone-read-comics-on-516x270.png");
+}
+
+.latest-details {
+  width: 100%;
+}
+
+@media only screen and (min-width: 768px) {
+  .main-section {
+    padding: 5px;
+    display: grid;
+    column-gap: 5px;
+    grid-template-columns: 2fr 1fr;
+  }
+
+  .main-article {
+    background:
+      linear-gradient(
+        to top left,
+        rgba(255, 36, 234, 0.5) 0%,
+        rgb(231, 78, 0.5) 80%
+      ),
+      url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2016/03/brain-1200x600.jpg");
+    background-position: center;
+    background-size: cover;
+  }
+
+  .cover-date {
+    padding-top: 20px;
+    padding-right: 5px;
+    color: white;
+    text-align: end;
+    font-size: 12px;
+  }
+
+  .main-article h2 {
+    padding-left: 10px;
+  }
+
+  .main-article h2 a,
+  .main-sub-article h2 a {
+    text-decoration: none;
+    color: rgb(226, 226, 226);
+    font-size: calc(12px + 3vh);
+    font-weight: 800;
+  }
+
+  .main-sub-article h2 {
+    padding: 30px 0 10px 10px;
+  }
+
+  #sub-link-1,
+  #sub-link-2 {
+    font-size: 25px;
+  }
+
+  #sub-link-1 span,
+  #sub-link-2 span {
+    font-size: 15px;
+  }
+
+  .main-article ul,
+  .main-sub-article ul {
+    margin: 10px 0 10px 10px;
+  }
+
+  .main-article ul li,
+  .main-sub-article ul li {
+    margin-right: 4px;
+    list-style: none;
+    display: inline-block;
+    color: rgb(226, 226, 226);
+    font-size: 12px;
+  }
+
+  .fa-clock-o,
+  .fa-share-alt {
+    color: rgb(226, 226, 226);
+    font-size: 15px;
+  }
+
+  .main-article ul li a,
+  .main-sub-article ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 12px;
+  }
+
+  .main-article ul li a:hover,
+  .main-sub-article ul li a:hover {
+    text-decoration: none;
+    color: rgb(189, 189, 189);
+  }
+
+  .main-article > div img {
+    height: 20vh;
+    padding-top: 30px;
+    padding-left: 20px;
+  }
+
+  .main-sub-article {
+    display: grid;
+    row-gap: 5px;
+    grid-template-rows: repeat(2, 1fr);
+  }
+
+  .main-sub-article > :first-child {
+    background:
+      linear-gradient(
+        to bottom,
+        rgba(99, 92, 92, 0.1) 0%,
+        rgb(17, 17, 17) 90%
+      ),
+      url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/07/Switch-Lite-796x417.jpg");
+    background-position: center;
+    background-size: cover;
+  }
+
+  .main-sub-article > :last-child {
+    background:
+      linear-gradient(
+        to bottom,
+        rgba(99, 92, 92, 0.1) 0%,
+        rgb(17, 17, 17) 90%
+      ),
+      url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/01/thisfootdoesnotexist.com-feet-ai-machine-learning-images-796x485.png");
+    background-position: center;
+    background-size: cover;
+  }
+
+  .main-article,
+  .main-sub-article > article {
+    display: grid;
+    align-items: end;
+  }
+
+  .topic {
+    color: #f42;
+    text-decoration: none;
+    font-size: 22px;
+    font-weight: 600;
+    margin-top: 2%;
+  }
+
+  .topic:hover {
+    text-decoration: none;
+    color: black;
+  }
+
+  .latest-news__container {
+    display: grid;
+    grid-template: 1fr 1fr / 0.8fr 0.8fr 0.8fr 0.8fr;
+    row-gap: 20px;
+    column-gap: 20px;
+    padding: 0 1% 0 1%;
+    max-width: 1400px;
+    margin: 0 auto;
+  }
+
+  .latest-news__container > div {
+    width: 100%;
+    height: 250px;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  .topic {
+    color: #f42;
+    text-decoration: none;
+    font-size: 22px;
+    font-weight: 600;
+    margin-top: 20px;
+  }
+
+  .topic:hover {
+    text-decoration: none;
+    color: black;
+  }
+
+  .latest-news__container {
+    display: grid;
+    grid-template: 1fr 1fr 1fr / 0.8fr 0.8fr 0.8fr;
+    row-gap: 10px;
+    column-gap: 10px;
+    margin: 0 2% 0 2%;
+  }
+
+  .latest-news__container > div {
+    width: 100%;
+    height: 250px;
+  }
+
+  .container-img {
+    height: 65%;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .main-article {
+    background: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2016/03/brain-1200x600.jpg");
+  }
+
+  .cover-date,
+  .main-article > :nth-child(2) {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 200px) and (max-width: 767px) {
+  .main-section {
+    padding: 5px;
+    display: grid;
+    row-gap: 5px;
+    grid-template-rows: 2fr, 1fr;
+  }
+
+  .main-article {
+    background:
+      linear-gradient(
+        0deg,
+        rgba(0, 0, 0, 0.8) 20%,
+        rgba(255, 255, 255, 0) 70%
+      ),
+      url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2016/03/brain-1200x600.jpg");
+    background-position: center;
+    background-size: cover;
+  }
+
+  .cover-date {
+    display: none;
+  }
+
+  .main-article h2 {
+    padding-left: 10px;
+  }
+
+  .main-article h2 a,
+  .main-sub-article h2 a {
+    text-decoration: none;
+    color: rgb(226, 226, 226);
+    font-size: 16px;
+    font-weight: 800;
+  }
+
+  .main-sub-article h2 {
+    padding: 10px 0 10px 10px;
+  }
+
+  #sub-link-1,
+  #sub-link-2 {
+    font-size: 16px;
+  }
+
+  #sub-link-1 span,
+  #sub-link-2 span {
+    font-size: calc(15px + 0.5vh);
+  }
+
+  .main-article ul,
+  .main-sub-article ul {
+    margin: 10px 0 10px 10px;
+  }
+
+  .main-article ul li,
+  .main-sub-article ul li {
+    margin-right: 4px;
+    list-style: none;
+    display: inline-block;
+    color: rgb(226, 226, 226);
+    font-size: calc(12px + 0.5vh);
+  }
+
+  .fa-clock-o,
+  .fa-share-alt {
+    color: rgb(226, 226, 226);
+    font-size: calc(15px + 0.5vh);
+  }
+
+  .main-article ul li a,
+  .main-sub-article ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: calc(12px + 0.5vh);
+  }
+
+  .main-article ul li a:hover,
+  .main-sub-article ul li a:hover {
+    text-decoration: none;
+    color: rgb(189, 189, 189);
+  }
+
+  .main-article > div img {
+    display: none;
+  }
+
+  .main-sub-article {
+    display: grid;
+    row-gap: 5px;
+    grid-template-rows: repeat(2, 1fr);
+  }
+
+  .main-sub-article > :first-child {
+    background:
+      linear-gradient(
+        0deg,
+        rgba(0, 0, 0, 1) 0%,
+        rgba(255, 255, 255, 0) 90%
+      ),
+      url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/07/Switch-Lite-796x417.jpg");
+    background-position: center;
+    background-size: cover;
+  }
+
+  .main-sub-article > :last-child {
+    background:
+      linear-gradient(
+        0deg,
+        rgba(0, 0, 0, 1) 0%,
+        rgba(255, 255, 255, 0) 90%
+      ),
+      url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/01/thisfootdoesnotexist.com-feet-ai-machine-learning-images-796x485.png");
+    background-position: center;
+    background-size: cover;
+  }
+
+  .main-article,
+  .main-sub-article > article {
+    display: grid;
+    align-items: end;
+  }
+
+  .topic {
+    color: #f42;
+    text-decoration: none;
+    font-size: calc(22px + 0.5vh);
+    font-weight: 600;
+    margin-top: 2%;
+  }
+
+  .deals-right-header {
+    margin-top: 2%;
+  }
+
+  .topic:hover {
+    text-decoration: none;
+    color: black;
+  }
+
+  .latest-news__container {
+    display: grid;
+    grid-template: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr / 1fr;
+    row-gap: 10px;
+    margin: 0 2% 0 2%;
+  }
+
+  .latest-news__container > div {
+    display: grid;
+    grid-template: 1fr / 1fr 6fr;
+    width: 100% !important;
+    height: 135px;
+    margin: 0;
+    padding: 0;
+  }
+
+  .container-img {
+    height: 90px;
+    width: 100px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .latest-details {
+    margin-left: 5px;
+  }
+
+  .latest-funding {
+    flex-direction: column;
+  }
+
+  .container-img > div {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 1016px) and (max-width: 1368px) {
+  .latest-funding__container > :last-child {
+    flex-grow: 0;
+    flex-basis: calc((100% / 3) - 60px);
+  }
+}
+
+.container {
+  max-width: 1400px;
+  margin: 0 auto;
+  margin-top: 30px;
+}
+
+@media only screen and (min-width: 200px) and (max-width: 570px) {
+  .latest-funding span {
+    display: none;
+  }
+
+  .latest-funding > :nth-child(2) > a {
+    display: inherit;
+    margin: 10px 0;
+  }
+
+  .topic,
+  .deals-right-header {
+    width: 100%;
+    text-align: start;
+  }
+}
+
+.latest-funding__container {
+  display: flex;
+  padding: 0 10px 0 10px;
+  max-width: 1400px;
+  margin: 0 auto;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  flex-wrap: wrap;
+}
+
+.latest-funding__container > div {
+  width: 270px;
+  background: #f4cdcd29;
+  margin: 0 30px;
+  margin-bottom: 30px;
+  flex-grow: 1;
+  border: 1px solid black;
+}
+
+.latest-funding__container > :last-child {
+  justify-self: left;
+}
+
+.latest-funding__container > div > ul {
+  padding: 10px 0 10px 0;
+  margin-bottom: 10px;
+  background-color: #eee1de;
+  border-bottom: 1px solid #fc9785;
+  padding-left: 8px;
+}
+
+.latest-funding__container ul li {
+  list-style: none;
+}
+
+.latest-img__content ul li {
+  list-style: none;
+}
+
+.latest-funding__container > div > ul li {
+  margin: 5px 0 5px 0;
+}
+
+.funding-header-link {
+  display: grid;
+  grid-template: 1fr / 85px 1fr;
+  text-decoration: none;
+  color: black;
+  padding: 5px 0 20px 0;
+  background-image: linear-gradient(to bottom, #f42 40%, #ffebe7 40%);
+}
+
+.latest-img__content ul li:first-child {
+  margin-top: 5px;
+  font-size: 14px;
+  font-weight: 700;
+  color: white;
+}
+
+.latest-img__content ul li:nth-child(2) {
+  margin-top: 20px;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.funding-link {
+  text-decoration: none;
+  color: rgb(44, 44, 44);
+  font-size: 12px;
+  margin: 10px 0 0 8px;
+  display: inline-block;
+}
+
+.funding-link > span {
+  color: rgb(112, 112, 112);
+  padding-left: 8px;
+}
+
+.latest-funding__container ul li a:hover {
+  text-decoration: none;
+  color: black;
+}
+
+.latest-img > img {
+  height: 50px;
+  margin: 8px;
+}
+
+.apps-gear-tech--container {
+  display: grid;
+  gap: 41px;
+  grid-template-columns: repeat(auto-fill, minmax(300px, auto));
+  grid-auto-flow: row;
+  grid-auto-rows: auto;
+  margin: 20px 40px;
+}
+
+.apps-gear-tech--container > div {
+  display: flex;
+  flex-direction: column;
+}
+
+.apps-gear-tech--container > div > ul {
+  padding-left: 15px;
+  padding-top: 15px;
+  font-size: 12px;
+  color: #f42;
+}
+
+.info--apps-tech > :last-child {
+  background: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/01/google-play-store-malware-joker.jpg);
+  flex-basis: 100px;
+  flex-shrink: 0;
+  flex-grow: 0;
+  background-position: 0 center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.info--apps-tech > :first-child {
+  flex: 1;
+  background-color: rgb(252, 234, 222);
+  padding: 10px 10px 35px 10px;
+}
+
+.apps-gear-tech--container > div > :first-child {
+  padding-bottom: 20px;
+  font-size: x-large;
+  text-decoration: none;
+  font-weight: bolder;
+  color: #f42;
+}
+
+.apps-gear-tech--container > div > :nth-child(2) {
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: column;
+  color: white;
+  padding-left: 10px;
+  padding-bottom: 10px;
+  text-decoration: none;
+  height: 100%;
+}
+
+.apps-gear-tech--container a > :first-child {
+  font-size: 12px;
+  cursor: default;
+}
+
+.apps-gear-tech--container a > :nth-child(2) {
+  font-size: 16px;
+  font-weight: bolder;
+}
+
+.apps-gear-tech--container a > :last-child {
+  font-size: 10px;
+  color: #949494;
+}
+
+.apps-gear-tech--container > div > :first-child:hover {
+  color: black;
+}
+
+.category-articles {
+  background-size: cover;
+  background-position: 0 center;
+  background-origin: border-box;
+  max-height: 60%;
+  background-repeat: no-repeat;
+  height: calc(270px + 5vw);
+}
+
+#facebook {
+  background:
+    linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 1) 10%,
+      rgba(255, 255, 255, 0) 74%
+    ),
+    url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/10/Untitled-design-98-368x276.jpg);
+  background-size: cover;
+  background-position: 0 center;
+  background-origin: border-box;
+  max-height: 60%;
+  background-repeat: no-repeat;
+  height: calc(270px + 5vw);
+}
+
+#gear {
+  background:
+    linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 1) 10%,
+      rgba(255, 255, 255, 0) 74%
+    ),
+    url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/01/header-image-smart-lock-cool-not-for-me-368x276.png);
+  background-size: cover;
+  background-position: 0 center;
+  background-origin: border-box;
+  max-height: 60%;
+  background-repeat: no-repeat;
+  height: calc(270px + 5vw);
+}
+
+#tech-id {
+  background:
+    linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 1) 10%,
+      rgba(255, 255, 255, 0) 74%
+    ),
+    url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2017/03/SpaceX-Falcon-9-SES-10-368x276.jpg");
+  background-size: cover;
+  background-position: center;
+  background-origin: border-box;
+  max-height: 60%;
+  background-repeat: no-repeat;
+  height: calc(270px + 5vw);
+}
+
+#creative-id {
+  background:
+    linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 1) 10%,
+      #fff0 74%
+    ),
+    url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/12/Copy-of-Copy-of-Copy-of-Copy-of-Copy-of-Copy-of-...-5-368x276.png");
+  background-size: cover;
+  background-position: 0 center;
+  background-origin: border-box;
+  max-height: 60%;
+  background-repeat: no-repeat;
+  height: calc(270px + 5vw);
+}
+
+#podium-id {
+  background-color: black;
+  background-size: cover;
+  background-position: center;
+  background-origin: border-box;
+  max-height: 60%;
+  background-repeat: no-repeat;
+  height: calc(270px + 5vw);
+}
+
+#insights-id {
+  background:
+    linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 1) 10%,
+      #fff0 74%
+    ),
+    url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/08/bitcoin_today-header_bitcoin_today-368x276.jpg");
+  background-size: cover;
+  background-position: 0 center;
+  background-origin: border-box;
+  max-height: 60%;
+  background-repeat: no-repeat;
+  height: calc(270px + 5vw);
+}
+
+#lauch-id {
+  background:
+    linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 1) 10%,
+      #fff0 74%
+    ),
+    url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/10/Amazon-Prime-Fresh-delivery-hed-368x276.jpg");
+  background-size: cover;
+  background-position: 0 center;
+  background-origin: border-box;
+  max-height: 60%;
+  background-repeat: no-repeat;
+  height: calc(270px + 5vw);
+}
+
+#distract-id {
+  background:
+    linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 1) 10%,
+      #fff0 74%
+    ),
+    url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2016/02/thepiratebay-1200x600.jpg");
+  background-size: cover;
+  background-position: 0 center;
+  background-origin: border-box;
+  max-height: 60%;
+  background-repeat: no-repeat;
+  height: calc(270px + 5vw);
+}
+
+.apps-gear-tech--container span {
+  max-width: 300px;
+  margin: 2px 0;
+}
+
+.apps-gear-tech--container a > :nth-child(2):hover {
+  text-decoration: underline;
+}
+
+.apps-gear-tech--container a > :last-child:hover {
+  color: whitesmoke;
+}
+
+.info--apps-tech {
+  display: flex;
+  margin-top: 5px;
+  height: 100px;
+}
+
+.info--apps-tech > :first-child > span {
+  font-size: 12px;
+}
+
+.info--apps-tech > :first-child > * {
+  display: block;
+  color: #f42;
+  text-decoration: none;
+}
+
+.info--apps-tech > :first-child > a:hover {
+  text-decoration: underline;
+}
+
+#gear-image {
+  background: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/01/header-image-phone-read-comics-on.png);
+  flex-basis: 100px;
+  flex-shrink: 0;
+  flex-grow: 0;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#tech-image {
+  background: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/01/fiat-centoventi-car-500-tesla-ces-concept-car-vehicle-battery-electric.jpg");
+  flex-basis: 100px;
+  flex-shrink: 0;
+  flex-grow: 0;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#apps-image {
+  background: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/01/fiat-centoventi-car-500-tesla-ces-concept-car-vehicle-battery-electric.jpg");
+  flex-basis: 100px;
+  flex-shrink: 0;
+  flex-grow: 0;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#creative-image {
+  background: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/10/Giphy-Arcade.jpg");
+  flex-basis: 100px;
+  flex-shrink: 0;
+  flex-grow: 0;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#podium-image {
+  background: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/12/download3.png");
+  flex-basis: 100px;
+  flex-shrink: 0;
+  flex-grow: 0;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#launch-image {
+  background: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/10/Press-Conference-with-Eric-Esrailian-Alexis-Ohanian-Hakob-Arshakyan-Yervant-Zorian-and-Serj-Tankian-hed.jpg");
+  flex-basis: 100px;
+  flex-shrink: 0;
+  flex-grow: 0;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#distract-image {
+  background: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/12/Copy-of-Copy-of-Copy-of-Copy-of-Copy-of-Copy-of-...-8.png");
+  flex-basis: 100px;
+  flex-shrink: 0;
+  flex-grow: 0;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#tech h3 a {
+  font-size: 17px;
+  font-weight: 600;
+  color: white;
+}
+
+#tech ul li a {
+  text-decoration: none;
+  color: black;
+}
+
+#tech {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  height: 250px;
+}
+
+#tech h3 {
+  padding-top: 80px;
+}
+
+#tech ul li {
+  list-style: none;
+  display: inline-block;
+  font-size: 12px;
+}
+
+#latest-deal {
+  display: flex;
+  align-items: center;
+  padding: 10px 0;
+}
+
+.deals-right-header {
+  margin-right: 1%;
+  text-decoration: none;
+  color: #f42;
+  width: 50%;
+  text-align: end;
+}
+
+.topic {
+  width: 50%;
+  white-space: nowrap;
+}
+
+.deals-right-header:hover {
+  color: black;
+}
+
+.container-img > div {
+  width: 80px;
+  height: 80px;
+  background-color: #fc0;
+  float: right;
+  clip-path: polygon(0 0, 100% 0, 100% 100%);
+  -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%);
+  position: relative;
+}
+
+.container-img > div > p {
+  font-size: 11px;
+  font-weight: 600;
+  font-style: bold;
+  transform: rotate(45deg);
+  position: absolute;
+  left: 22px;
+  top: 18px;
+}
+
+#d-li1 {
+  background-image: url("https://cdnp1.stackassets.com/cba31166b47b2c151d94a8397c4aa0604771f268/store/04b44dd5593f2a7c175e4dd48292fe76d560b9c1c0536d03345aa8c50141/sale_18367_primary_image.jpg");
+}
+
+#d-li2 {
+  background-image: url("https://cdnp0.stackassets.com/0bcaf472e484efc5812ba81caff99e8d92b3e6e9/store/a608033f5bd5c0926a52360990ea5bd8a7241593db592e096d16df200727/product_30218_product_shots4.jpg");
+}
+
+#d-li3 {
+  background-image: url("https://cdnp3.stackassets.com/f7975567bfde79648a2dfc25a7117b1f4e64198a/store/3d45335559eb6db6de1e1dae35734f2b2636b106824e7db3c2ee76b386ba/sale_25035_primary_image.jpg");
+}
+
+#d-li4 {
+  background-image: url("https://cdnp1.stackassets.com/4c6357549bbe196eac7a2a550f3cf2a380f39e44/store/7d5851d962ea8a62a7e9939f0efebc686b69d83821b63060d3109048021b/sale_19399_primary_image.jpg");
+}
+
+#d-li5 {
+  background-image: url("https://cdnp2.stackassets.com/86a50e75aca16cc1dbdc418af68e324371e26319/store/c9986baf3eac2ff09f065cd40f4ab2e25d969b9c36239f31af719257b493/sale_19062_primary_image.jpg");
+}
+
+#d-li6 {
+  background-image: url("https://cdnp0.stackassets.com/daa902c3187c72426e27c82d3282f697851b76fa/store/e9d19825586f8c6202af906416b3d140852a421d86b240d36b675618fbc8/sale_24411_primary_image.jpg");
+}
+
+#d-li7 {
+  background-image: url("https://cdnp1.stackassets.com/e7136335999998ba62b7704286764743401c43d1/store/4ded308468f81ce8f8956252890404c1db5a26b6ee91a0d7e2d8bd960e6e/sale_25139_primary_image.jpg");
+}
+
+#d-li8 {
+  background-image: url("https://cdnp1.stackassets.com/a1885052002064f3903e6c4d22b09695ee1224e5/store/6ad863301975cc44ff2d8ca2233009444670eee3b2e453cc521275dd1a09/sale_24048_primary_image.jpg");
+}
+
+.price {
+  font-size: 17px;
+  font-style: bold;
+}
+
+#deal-link-1,
+#deal-link-2,
+#deal-link-3,
+#deal-link-4,
+#deal-link-5,
+#deal-link-6,
+#deal-link-7,
+#deal-link-8 {
+  font-size: 15px;
+}
+
+#deal-link-1:hover,
+#deal-link-2:hover,
+#deal-link-3:hover,
+#deal-link-4:hover,
+#deal-link-5:hover,
+#deal-link-6:hover,
+#deal-link-7:hover,
+#deal-link-8:hover {
+  font-size: 15px;
+  color: #f42;
+}
+
+@media only screen and (min-width: 1010px) and (max-width: 1340px) {
+  .latest-funding__container > :last-child {
+    display: none;
+  }
+}
+
+.section-topic {
+  padding-left: 15px;
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+.override {
+  margin-top: 0 !important;
+  padding-left: 15px;
+}
