@@ -265,9 +265,7 @@
   .topic {
     color: #f42;
     text-decoration: none;
-    
     font-weight: 600;
-    margin-top: 2%;
   }
 
   .topic:hover {
@@ -1083,7 +1081,7 @@
 
 .override {
   margin-top: 0 !important;
-  padding-left: 15px;
+  padding: 10px 0 10px 14px;
 }
 
 .text-size
