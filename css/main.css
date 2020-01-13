@@ -195,13 +195,13 @@
     align-items: end;
   }
 
-  .section-topic {
+  /* .section-topic {
     height: 60px;
     line-height: 20px;
     padding-top: 20px;
     max-width: 1400px;
     margin: 0 auto;
-  }
+  } */
 
   .topic {
     color: #ff4422;
@@ -233,18 +233,18 @@
 }
 
 @media only screen and (min-width: 768px) and (max-width: 1024px) {
-  .section-topic {
+  /* .section-topic {
     height: 60px;
     line-height: 20px;
     padding-top: 20px;
-  }
+  } */
 
   .topic {
     color: #ff4422;
     text-decoration: none;
     font-size: 22px;
     font-weight: 600;
-    margin-left: 25px;
+    /* margin-left: 25px; */
     margin-top: 20px;
   }
 
@@ -403,14 +403,14 @@
     align-items: end;
   }
 
-  .section-topic {
+  /* .section-topic {
     display: flex;
     justify-content: start;
     align-content: center;
     height: 10vh;
     margin: 0 1% 0 1%;
     padding-left: 1%;
-  }
+  } */
 
   .topic {
     color: #ff4422;
@@ -472,9 +472,9 @@
     flex-basis: calc((100% / 3) - 60px);
   }
 
-  .section-topic {
+  /* .section-topic {
     padding-left: 1%;
-  }
+  } */
 }
 
 .container {
@@ -632,7 +632,7 @@
   grid-template-columns: repeat(auto-fill, minmax(300px, auto));
   grid-auto-flow: row;
   grid-auto-rows: auto;
-  margin: 0 40px;
+  margin: 20px 40px;
 }
 
 .apps-gear-tech--container > div {
@@ -694,14 +694,13 @@
   height: calc(270px + 5vw);
 }
 
-#facebook
-{
+#facebook {
   background: linear-gradient(
-    0deg,
-    rgba(0, 0, 0, 1) 10%,
-    rgba(255, 255, 255, 0) 74%
-  ),
-  url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/10/Untitled-design-98-368x276.jpg);
+      0deg,
+      rgba(0, 0, 0, 1) 10%,
+      rgba(255, 255, 255, 0) 74%
+    ),
+    url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/10/Untitled-design-98-368x276.jpg);
   background-size: cover;
   background-position: 0px center;
   background-origin: border-box;
@@ -710,14 +709,13 @@
   height: calc(270px + 5vw);
 }
 
-#gear
-{
+#gear {
   background: linear-gradient(
-    0deg,
-    rgba(0, 0, 0, 1) 10%,
-    rgba(255, 255, 255, 0) 74%
-  ),
-  url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/01/header-image-smart-lock-cool-not-for-me-368x276.png);
+      0deg,
+      rgba(0, 0, 0, 1) 10%,
+      rgba(255, 255, 255, 0) 74%
+    ),
+    url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/01/header-image-smart-lock-cool-not-for-me-368x276.png);
   background-size: cover;
   background-position: 0px center;
   background-origin: border-box;
@@ -728,10 +726,11 @@
 
 #tech-id {
   background: linear-gradient(
-    0deg,
-    rgba(0, 0, 0, 1) 10%,
-    rgba(255, 255, 255, 0) 74%
-  ), url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2017/03/SpaceX-Falcon-9-SES-10-368x276.jpg");
+      0deg,
+      rgba(0, 0, 0, 1) 10%,
+      rgba(255, 255, 255, 0) 74%
+    ),
+    url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2017/03/SpaceX-Falcon-9-SES-10-368x276.jpg");
   background-size: cover;
   background-position: 0px center;
   background-origin: border-box;
@@ -741,11 +740,8 @@
 }
 
 #creative-id {
-  background: linear-gradient(
-    0deg,
-    rgba(0, 0, 0, 1) 10%,
-    #ffffff00 74%
-  ), url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/12/Copy-of-Copy-of-Copy-of-Copy-of-Copy-of-Copy-of-...-5-368x276.png");
+  background: linear-gradient(0deg, rgba(0, 0, 0, 1) 10%, #ffffff00 74%),
+    url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/12/Copy-of-Copy-of-Copy-of-Copy-of-Copy-of-Copy-of-...-5-368x276.png");
   background-size: cover;
   background-position: 0px center;
   background-origin: border-box;
@@ -765,11 +761,30 @@
 }
 
 #insights-id {
-  background: linear-gradient(
-    0deg,
-    rgba(0, 0, 0, 1) 10%,
-    #ffffff00 74%
-  ), url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/08/bitcoin_today-header_bitcoin_today-368x276.jpg");
+  background: linear-gradient(0deg, rgba(0, 0, 0, 1) 10%, #ffffff00 74%),
+    url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/08/bitcoin_today-header_bitcoin_today-368x276.jpg");
+  background-size: cover;
+  background-position: 0px center;
+  background-origin: border-box;
+  max-height: 60%;
+  background-repeat: no-repeat;
+  height: calc(270px + 5vw);
+}
+
+#lauch-id {
+  background: linear-gradient(0deg, rgba(0, 0, 0, 1) 10%, #ffffff00 74%),
+    url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/10/Amazon-Prime-Fresh-delivery-hed-368x276.jpg");
+  background-size: cover;
+  background-position: 0px center;
+  background-origin: border-box;
+  max-height: 60%;
+  background-repeat: no-repeat;
+  height: calc(270px + 5vw);
+}
+
+#distract-id {
+  background: linear-gradient(0deg, rgba(0, 0, 0, 1) 10%, #ffffff00 74%),
+    url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2016/02/thepiratebay-1200x600.jpg");
   background-size: cover;
   background-position: 0px center;
   background-origin: border-box;
@@ -847,8 +862,7 @@
   background-size: cover;
 }
 
-#gear-image
-{
+#gear-image {
   background: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/01/header-image-phone-read-comics-on.png);
   flex-basis: 100px;
   flex-shrink: 0;
@@ -880,6 +894,26 @@
 
 #podium-image {
   background: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/12/download3.png");
+  flex-basis: 100px;
+  flex-shrink: 0;
+  flex-grow: 0;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#launch-image {
+  background: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/10/Press-Conference-with-Eric-Esrailian-Alexis-Ohanian-Hakob-Arshakyan-Yervant-Zorian-and-Serj-Tankian-hed.jpg");
+  flex-basis: 100px;
+  flex-shrink: 0;
+  flex-grow: 0;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#distract-image {
+  background: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/12/Copy-of-Copy-of-Copy-of-Copy-of-Copy-of-Copy-of-...-8.png");
   flex-basis: 100px;
   flex-shrink: 0;
   flex-grow: 0;
@@ -1028,11 +1062,14 @@
   color: #ff4422;
 }
 
-
-@media only screen and (min-width:1010px) and (max-width:1340px)
-{
-  .latest-funding__container > :last-child
-  {
+@media only screen and (min-width: 1010px) and (max-width: 1340px) {
+  .latest-funding__container > :last-child {
     display: none;
   }
+}
+
+.section-topic {
+  padding-left: 15px;
+  max-width: 1400px;
+  margin: 0 auto;
 }
