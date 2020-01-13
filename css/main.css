@@ -8,12 +8,12 @@
 
 .latest-funding a {
   text-decoration: none;
-  color: #ff4422;
+  color: #f42;
   font-size: 12px;
 }
 
 .latest-funding span {
-  color: #ff4422;
+  color: #f42;
 }
 
 .latest-news__container h4 a {
@@ -223,7 +223,7 @@
   }
 
   .topic {
-    color: #ff4422;
+    color: #f42;
     text-decoration: none;
     font-size: 22px;
     font-weight: 600;
@@ -253,7 +253,7 @@
 
 @media only screen and (min-width: 768px) and (max-width: 1024px) {
   .topic {
-    color: #ff4422;
+    color: #f42;
     text-decoration: none;
     font-size: 22px;
     font-weight: 600;
@@ -399,7 +399,8 @@
   }
 
   .main-sub-article > :last-child {
-    background: linear-gradient(
+    background:
+      linear-gradient(
         0deg,
         rgba(0, 0, 0, 1) 0%,
         rgba(255, 255, 255, 0) 90%
@@ -416,7 +417,7 @@
   }
 
   .topic {
-    color: #ff4422;
+    color: #f42;
     text-decoration: none;
     font-size: calc(22px + 0.5vh);
     font-weight: 600;
@@ -549,7 +550,7 @@
   text-decoration: none;
   color: black;
   padding: 5px 0 20px 0;
-  background-image: linear-gradient(to bottom, #ff4422 40%, #ffebe7 40%);
+  background-image: linear-gradient(to bottom, #f42 40%, #ffebe7 40%);
 }
 
 .latest-img__content ul li {
@@ -616,7 +617,12 @@
   padding-left: 15px;
   padding-top: 15px;
   font-size: 12px;
-  color: #ff4422;
+  color: #f42;
+}
+
+.category-list li {
+  border-bottom: 1px solid grey;
+  padding: 5px 0 5px 0;
 }
 
 .apps-gear-tech--container > div li {
@@ -639,7 +645,7 @@
   font-size: x-large;
   text-decoration: none;
   font-weight: bolder;
-  color: #ff4422;
+  color: #f42;
 }
 
 .apps-gear-tech--container > div > :first-child:hover {
@@ -704,7 +710,7 @@
     ),
     url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2017/03/SpaceX-Falcon-9-SES-10-368x276.jpg");
   background-size: cover;
-  background-position: 0px center;
+  background-position: center;
   background-origin: border-box;
   max-height: 60%;
   background-repeat: no-repeat;
@@ -712,10 +718,15 @@
 }
 
 #creative-id {
-  background: linear-gradient(0deg, rgba(0, 0, 0, 1) 10%, #ffffff00 74%),
+  background:
+    linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 1) 10%,
+      #ffffff00 74%
+    ),
     url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/12/Copy-of-Copy-of-Copy-of-Copy-of-Copy-of-Copy-of-...-5-368x276.png");
   background-size: cover;
-  background-position: 0px center;
+  background-position: 0 center;
   background-origin: border-box;
   max-height: 60%;
   background-repeat: no-repeat;
@@ -725,7 +736,7 @@
 #podium-id {
   background-color: black;
   background-size: cover;
-  background-position: 0px center;
+  background-position: center;
   background-origin: border-box;
   max-height: 60%;
   background-repeat: no-repeat;
@@ -733,10 +744,15 @@
 }
 
 #insights-id {
-  background: linear-gradient(0deg, rgba(0, 0, 0, 1) 10%, #ffffff00 74%),
+  background:
+    linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 1) 10%,
+      #ffffff00 74%
+    ),
     url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/08/bitcoin_today-header_bitcoin_today-368x276.jpg");
   background-size: cover;
-  background-position: 0px center;
+  background-position: 0 center;
   background-origin: border-box;
   max-height: 60%;
   background-repeat: no-repeat;
@@ -744,10 +760,15 @@
 }
 
 #lauch-id {
-  background: linear-gradient(0deg, rgba(0, 0, 0, 1) 10%, #ffffff00 74%),
+  background:
+    linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 1) 10%,
+       #ffffff00 74%
+    ),
     url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/10/Amazon-Prime-Fresh-delivery-hed-368x276.jpg");
   background-size: cover;
-  background-position: 0px center;
+  background-position: 0 center;
   background-origin: border-box;
   max-height: 60%;
   background-repeat: no-repeat;
@@ -758,7 +779,7 @@
   background: linear-gradient(0deg, rgba(0, 0, 0, 1) 10%, #ffffff00 74%),
     url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2016/02/thepiratebay-1200x600.jpg");
   background-size: cover;
-  background-position: 0px center;
+  background-position: 0 center;
   background-origin: border-box;
   max-height: 60%;
   background-repeat: no-repeat;
@@ -768,6 +789,16 @@
 .apps-gear-tech--container span {
   max-width: 300px;
   margin: 2px 0;
+}
+
+.info--apps-tech > :last-child {
+  background: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/01/google-play-store-malware-joker.jpg);
+  flex-basis: 100px;
+  flex-shrink: 0;
+  flex-grow: 0;
+  background-position: 0 center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .apps-gear-tech--container a > :first-child {
@@ -809,6 +840,12 @@
   font-size: 12px;
 }
 
+.category-list li a {
+  text-decoration: none;
+  color: black;
+  font-size: 12px;
+}
+
 .info--apps-tech > :first-child > a {
   font-weight: 600;
   font-size: 14px;
@@ -816,22 +853,12 @@
 
 .info--apps-tech > :first-child > * {
   display: block;
-  color: #ff4422;
+  color: #f42;
   text-decoration: none;
 }
 
 .info--apps-tech > :first-child > a:hover {
   text-decoration: underline;
-}
-
-.info--apps-tech > :last-child {
-  background: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/01/google-play-store-malware-joker.jpg);
-  flex-basis: 100px;
-  flex-shrink: 0;
-  flex-grow: 0;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
 }
 
 #gear-image {
@@ -904,6 +931,12 @@
   background-size: cover;
 }
 
+#tech h3 a {
+  font-size: 17px;
+  font-weight: 600;
+  color: white;
+}
+
 #tech ul li a {
   text-decoration: none;
   color: black;
@@ -920,27 +953,10 @@
   padding-top: 80px;
 }
 
-#tech h3 a {
-  font-size: 17px;
-  font-weight: 600;
-  color: white;
-}
-
 #tech ul li {
   list-style: none;
   display: inline-block;
   font-size: 12px;
-}
-
-.category-list li a {
-  text-decoration: none;
-  color: black;
-  font-size: 12px;
-}
-
-.category-list li {
-  border-bottom: 1px solid grey;
-  padding: 5px 0 5px 0;
 }
 
 #latest-deals {
@@ -950,7 +966,7 @@
 .deals-right-header {
   margin-right: 1%;
   text-decoration: none;
-  color: #ff4422;
+  color: #f42;
   width: 50%;
   float: right;
   text-align: end;
@@ -967,7 +983,7 @@
 .container-img > div {
   width: 80px;
   height: 80px;
-  background-color: #ffcc00;
+  background-color: #fc0;
   float: right;
   clip-path: polygon(0 0, 100% 0, 100% 100%);
   -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%);
@@ -1041,7 +1057,7 @@
 #deal-link-7:hover,
 #deal-link-8:hover {
   font-size: 15px;
-  color: #ff4422;
+  color: #f42;
 }
 
 @media only screen and (min-width: 1010px) and (max-width: 1340px) {

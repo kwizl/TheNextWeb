@@ -6,12 +6,12 @@
 
 .nav-bar > :first-child {
   flex-basis: 110px;
-  background: rgb(255, 36, 234);
-  background: linear-gradient(
-    132deg,
-    rgba(255, 36, 234, 1) 0%,
-    rgb(231, 78, 1) 80%
-  );
+  background:
+    linear-gradient(
+      132deg,
+      rgba(255, 36, 234, 1) 0%,
+      rgb(231, 78, 1) 80%
+    );
   display: flex;
   justify-content: center;
   align-items: center;
@@ -28,16 +28,6 @@
   flex-direction: column;
 }
 
-.nav-bar > :last-child > :first-child {
-  display: flex;
-  flex-direction: row;
-}
-
-.nav-bar > :last-child > :first-child {
-  display: flex;
-  flex-direction: row;
-}
-
 #menu-top-left {
   display: flex;
   justify-content: end;
@@ -45,6 +35,8 @@
 }
 
 .nav-bar > :last-child > :first-child {
+  display: flex;
+  flex-direction: row;
   flex: 0.5;
   background-color: black;
 }
@@ -63,6 +55,15 @@
 .dropdown-menu-top a {
   text-decoration: none;
   color: rgb(197, 197, 197);
+}
+
+.menu-bottom li a {
+  text-decoration: none;
+  color: rgb(155, 155, 155);
+  text-transform: uppercase;
+  font-family: sans-serif;
+  font-weight: 500;
+  font-size: 13px;
 }
 
 .dropdown-menu-top a:hover {
@@ -95,15 +96,6 @@
   display: inline-block;
   list-style: none;
   padding-right: 10px;
-}
-
-.menu-bottom li a {
-  text-decoration: none;
-  color: rgb(155, 155, 155);
-  text-transform: uppercase;
-  font-family: sans-serif;
-  font-weight: 500;
-  font-size: 13px;
 }
 
 .menu-bottom li a:hover {
@@ -181,7 +173,6 @@
 
   .trick {
     flex: 1;
-
     display: initial;
   }
 }
