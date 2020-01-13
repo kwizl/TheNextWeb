@@ -1,3 +1,38 @@
+.latest-funding {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 10px;
+  margin-left: 36px;
+  margin-right: 39px;
+}
+
+.latest-funding a {
+  text-decoration: none;
+  color: #ff4422;
+  font-size: 12px;
+}
+
+.latest-funding span {
+  color: #ff4422;
+}
+
+.latest-news__container h4 a {
+  font-size: 13px;
+  font-weight: 600;
+  text-decoration: none;
+  color: black;
+}
+
+.latest-news__container ul li a {
+  text-decoration: none;
+  color: rgb(121, 121, 121);
+  font-size: 12px;
+}
+
+.latest-funding a:hover {
+  color: rgb(70, 70, 70);
+}
+
 .latest-news__container ul li {
   margin-right: 4px;
   list-style: none;
@@ -6,10 +41,9 @@
   font-size: 12px;
 }
 
-.latest-news__container ul li a {
-  text-decoration: none;
-  color: rgb(121, 121, 121);
-  font-size: 12px;
+.latest-funding :first-child a {
+  font-weight: 800;
+  font-size: 20px !important;
 }
 
 .latest-news__container ul li a:hover {
@@ -56,13 +90,6 @@
 
 #li8 {
   background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/01/header-image-phone-read-comics-on-516x270.png");
-}
-
-.latest-news__container h4 a {
-  font-size: 13px;
-  font-weight: 600;
-  text-decoration: none;
-  color: black;
 }
 
 .latest-details {
@@ -195,14 +222,6 @@
     align-items: end;
   }
 
-  /* .section-topic {
-    height: 60px;
-    line-height: 20px;
-    padding-top: 20px;
-    max-width: 1400px;
-    margin: 0 auto;
-  } */
-
   .topic {
     color: #ff4422;
     text-decoration: none;
@@ -233,18 +252,11 @@
 }
 
 @media only screen and (min-width: 768px) and (max-width: 1024px) {
-  /* .section-topic {
-    height: 60px;
-    line-height: 20px;
-    padding-top: 20px;
-  } */
-
   .topic {
     color: #ff4422;
     text-decoration: none;
     font-size: 22px;
     font-weight: 600;
-    /* margin-left: 25px; */
     margin-top: 20px;
   }
 
@@ -403,15 +415,6 @@
     align-items: end;
   }
 
-  /* .section-topic {
-    display: flex;
-    justify-content: start;
-    align-content: center;
-    height: 10vh;
-    margin: 0 1% 0 1%;
-    padding-left: 1%;
-  } */
-
   .topic {
     color: #ff4422;
     text-decoration: none;
@@ -471,43 +474,12 @@
     flex-grow: 0;
     flex-basis: calc((100% / 3) - 60px);
   }
-
-  /* .section-topic {
-    padding-left: 1%;
-  } */
 }
 
 .container {
   max-width: 1400px;
   margin: 0 auto;
   margin-top: 30px;
-}
-
-.latest-funding {
-  display: flex;
-  justify-content: space-between;
-  margin: 0 10px;
-  margin-left: 36px;
-  margin-right: 39px;
-}
-
-.latest-funding :first-child a {
-  font-weight: 800;
-  font-size: 20px !important;
-}
-
-.latest-funding a {
-  text-decoration: none;
-  color: #ff4422;
-  font-size: 12px;
-}
-
-.latest-funding span {
-  color: #ff4422;
-}
-
-.latest-funding a:hover {
-  color: rgb(70, 70, 70);
 }
 
 @media only screen and (min-width: 200px) and (max-width: 570px) {
@@ -873,6 +845,16 @@
 }
 
 #tech-image {
+  background: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/01/fiat-centoventi-car-500-tesla-ces-concept-car-vehicle-battery-electric.jpg");
+  flex-basis: 100px;
+  flex-shrink: 0;
+  flex-grow: 0;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#apps-image {
   background: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/01/fiat-centoventi-car-500-tesla-ces-concept-car-vehicle-battery-electric.jpg");
   flex-basis: 100px;
   flex-shrink: 0;
